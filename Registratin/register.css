@@ -1,0 +1,66 @@
+/* reg-css */
+
+*{
+    padding: 0;
+    margin:0;
+    font-family:sans-serif;
+}
+body{
+    /* background:url(register5.jpg) ;
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat; */
+    width: 100vw;
+    height: 100vh;
+    background: url(register5.jpg)no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #190303;
+    
+    
+
+}
+.Registration{
+    position:absolute;
+    top:45%;
+    left:37%;
+    transform: translate(-50%,-50%);
+    width:430px;
+    text-decoration: solid;
+}
+.Registration h1{
+    font-size: 40px;
+    text-align: center;
+    text-decoration: uppercase;
+    margin:30px 0;
+}
+.Registration label{
+font-size: 20px;
+margin:15px 0px;
+}
+.Registration input{
+    font-size: 16px;
+    padding: 15px 10px;
+    width:100%;
+    border:0;
+    border-radius:5px;
+    outline: none;
+}
+#submit{
+    font-size:18px;
+    
+    font-weight: bold;
+    margin:20px 0;
+    padding:10px 15px;
+    width:50%;
+    border: 0;
+    border-radius: 5px;
+    background-color:#56a8b4f4;
+
+    
+}
+#submit:hover{
+    color:#8609c1;
+}
